@@ -4,6 +4,7 @@
 /* Components file */
 @import url("/css/components/navbar.css");
 @import url("/css/components/card.css");
+@import url("/css/components/avatar.css");
 
 /* Main CSS */
 * {

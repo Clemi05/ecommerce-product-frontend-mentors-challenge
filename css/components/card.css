@@ -7,3 +7,15 @@
   position: relative;
   margin: 0 auto;
 }
+
+/* Card Headers */
+.card h2 {
+  text-transform: uppercase;
+  color: var(--orange);
+  font-size: 16px;
+}
+
+/* Card Images */
+.card-img .card-img-main {
+  border-radius: 20px;
+}
