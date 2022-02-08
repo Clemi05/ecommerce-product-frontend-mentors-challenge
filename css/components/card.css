@@ -1,0 +1,9 @@
+.card {
+  width: 100%;
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  margin: 0 auto;
+}

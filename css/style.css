@@ -3,6 +3,7 @@
 
 /* Components file */
 @import url("/css/components/navbar.css");
+@import url("/css/components/card.css");
 
 /* Main CSS */
 * {
