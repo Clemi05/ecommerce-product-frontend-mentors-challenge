@@ -1,5 +1,13 @@
 nav {
   color: var(--dark-grayish-blue);
+  display: flex;
+  justify-content: flex-start;
+  gap: 2em;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 10px;
 }
 
 nav ul li a {
