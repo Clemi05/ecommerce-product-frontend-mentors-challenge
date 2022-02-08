@@ -1,0 +1,11 @@
+nav {
+  color: var(--dark-grayish-blue);
+}
+
+nav ul li a {
+  color: var(--dark-grayish-blue);
+}
+
+nav ul li a:hover {
+  color: var(--dark-blue);
+}

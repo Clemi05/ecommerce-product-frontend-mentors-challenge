@@ -1,6 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+/* CSS Assets */
+@import '/css/navbar.css';
+
 /* Main CSS */
 * {
   font-family: 'Kumbh Sans', sans-serif;
@@ -30,6 +33,15 @@
   --black: hsl(0, 0%, 0%); /* with 75% opacity for lightbox background */
 }
 
+body {
+  background-color: var(--white);
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+}
+
 /* Attributions */
 .attribution {
   font-size: 11px;
@@ -37,5 +49,9 @@
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--orange);
+}
+
+.attribution a:hover {
+  font-weight: 700;
 }
