@@ -6,7 +6,7 @@
 @import url("/css/components/card.css");
 @import url("/css/components/avatar.css");
 
-/* Main CSS */
+/* Global Styles */
 * {
   font-family: 'Kumbh Sans', sans-serif;
   margin: 0;

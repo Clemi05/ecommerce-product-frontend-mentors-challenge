@@ -1,7 +1,7 @@
 nav {
   color: var(--dark-grayish-blue);
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 2em;
   margin: 20px 0;
