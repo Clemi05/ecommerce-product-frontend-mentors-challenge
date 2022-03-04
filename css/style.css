@@ -45,6 +45,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  margin-top: 70px;
+}
+
 /* Attributions */
 .attribution {
   font-size: 11px;
