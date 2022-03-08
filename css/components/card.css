@@ -23,18 +23,24 @@
 .card-img {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-img-main {
   width: 70%;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .card-img-thumbnail-container {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 .card-img-thumbnail-container img {
-  width: 20%;
-  border-radius: 20px;
+  width: 15%;
+  border-radius: 15px;
 }
