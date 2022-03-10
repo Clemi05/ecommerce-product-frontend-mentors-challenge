@@ -19,7 +19,7 @@
 }
 
 .card-img-main {
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -32,14 +32,14 @@
 }
 
 .card-img-thumbnail-container img {
-  width: 17%;
+  width: 19%;
   border-radius: 10px;
 }
 
 /* Card content Style */
 
 .card-content {
-  margin-top: 5%;
+  margin-top: 30px;
 }
 
 .card-content h1 {
@@ -59,17 +59,29 @@
   color: var(--dark-grayish-blue);
   margin-top: 30px;
   word-spacing: 2px;
+  line-height: 24px;
 }
 
 .card-price {
   display: flex;
   justify-content: flex-start;
   align-content: center;
+  align-items: center;
   gap: 1em;
   margin-top: 20px;
 }
 
 .card-price .card-discount-price {
-  margin-top: ;
   color: var(--black);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card-price .card-discount {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 14px;
+  background-color: var(--pale-orange);
+  padding: 2px 5px;
+  border-radius: 5px;
 }
