@@ -85,3 +85,11 @@
   padding: 2px 5px;
   border-radius: 5px;
 }
+
+.card-content .card-initial-price {
+  margin-top: 8px;
+  color: var(--grayish-blue);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: line-through;
+}
