@@ -6,6 +6,7 @@
   align-items: stretch;
   position: relative;
   margin: 0 auto;
+  gap: 4em;
 }
 
 /* Card content Style */
@@ -14,23 +15,28 @@
   margin-top: 5%;
 }
 
-.card h1 {
+.card-content h1 {
   font-size: 38px;
   line-height: 40px;
   margin-top: 20px;
 }
 
-.card h2 {
+.card-content h2 {
   text-transform: uppercase;
   color: var(--orange);
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
+.card-content p {
+  color: var(--dark-grayish-blue);
+  margin-top: 30px;
+  word-spacing: 2px;
+}
+
+
+
 /* Card Images Style */
-/* .card-img .card-img-main {
-  border-radius: 20px;
-} */
 
 .card-img {
   display: flex;
