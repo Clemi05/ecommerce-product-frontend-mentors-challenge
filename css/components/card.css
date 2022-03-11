@@ -105,11 +105,35 @@
 
 .card-cart-quantity {
   display: flex;
-  background-color: grey;
+  background-color: var(--light-grayish-blue);
   padding: 9px;
   border-radius: 8px;
   align-content: center;
   justify-content: flex-start;
   align-items: center;
   gap: 2em;
+}
+
+.card-cart-quantity span {
+  font-weight: 700;
+}
+
+.card-cart-btn-add {
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 1em;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border: none;
+}
+
+.card-cart-btn-add img {
+  color: var(--white);
 }
