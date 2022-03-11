@@ -95,13 +95,21 @@
 }
 
 .card-cart {
+  display: flex;
   margin-top: 30px;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3em;
 }
 
 .card-cart-quantity {
   display: flex;
-  flex-direction: row;
-  background-color: var( --light-grayish-blue);
+  background-color: grey;
   padding: 5px;
   border-radius: 10px;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
 }
